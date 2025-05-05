@@ -3,57 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Информатика - Блог статей</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Информатика Pro | Современный блог</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <div class="logo">Информатика Pro</div>
-            <div class="nav-links">
-                <a href="#" class="home-link">Главная</a>
-                <a href="#">Статьи</a>
-                <a href="#">О проекте</a>
-                <a href="#">Контакты</a>
-            </div>
-        </nav>
+    <header class="glass-header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Информатика Pro</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="active"><i class="fas fa-home"></i> Главная</a>
+                    <a href="#"><i class="fas fa-tags"></i> Категории</a>
+                    <a href="#"><i class="fas fa-search"></i> Поиск</a>
+                    <a href="#"><i class="fas fa-user"></i> Профиль</a>
+                </div>
+                <button class="mobile-menu"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
     </header>
 
-    <div class="container">
-        <main class="main-content" id="mainPage">
-            <div class="articles">
-                <!-- Статьи будут добавляться динамически через JS -->
+    <main class="container">
+        <div class="main-content" id="mainPage">
+            <div class="filter-container">
+                <button class="filter-btn active" data-category="all">
+                    <i class="fas fa-star"></i> Все статьи
+                </button>
+                <button class="filter-btn btn-algorithms" data-category="algorithms">
+                    <i class="fas fa-sort-amount-down"></i> Алгоритмы
+                </button>
+                <button class="filter-btn btn-programming" data-category="programming">
+                    <i class="fas fa-code"></i> Программирование
+                </button>
+                <button class="filter-btn btn-databases" data-category="databases">
+                    <i class="fas fa-database"></i> Базы данных
+                </button>
+                <button class="filter-btn btn-ai" data-category="ai">
+                    <i class="fas fa-brain"></i> Искусственный интеллект
+                </button>
             </div>
-
-            <aside class="sidebar">
-                <div class="sidebar-section">
-                    <h3>Категории</h3>
-                    <ul id="categoriesList">
-                        <li><a href="#" data-category="all">Все темы</a></li>
-                        <li><a href="#" data-category="algorithms">Алгоритмы</a></li>
-                        <li><a href="#" data-category="programming">Программирование</a></li>
-                        <li><a href="#" data-category="databases">Базы данных</a></li>
-                        <li><a href="#" data-category="ai">Искусственный интеллект</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </main>
+            <div class="articles-grid">
+                <!-- Статьи будут вставлены через JS -->
+            </div>
+        </div>
 
         <div class="article-full" id="articlePage">
-            <button class="back-button">← Назад к статьям</button>
-            <article>
-                <img id="fullArticleImage" src="" alt="Изображение статьи">
-                <div class="article-meta" id="fullArticleMeta"></div>
-                <h1 id="fullArticleTitle"></h1>
-                <div id="fullArticleContent"></div>
-            </article>
+            <!-- Полная статья будет вставлена через JS -->
         </div>
-    </div>
+    </main>
 
-    <footer>
-        <p>© 2024 Информатика Pro. Все права защищены.</p>
+    <footer class="glass-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>О проекте</h3>
+                    <p>Современный образовательный ресурс по информатике и программированию</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <a href="#"><i class="fab fa-telegram"></i> Telegram</a>
+                    <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2024 Информатика Pro | Все права защищены
+            </div>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
