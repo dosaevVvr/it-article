@@ -148,7 +148,7 @@ nav {
     font-size: 0.95rem;
     margin-bottom: 15px;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -410,4 +410,107 @@ nav {
 
 .article-card {
     animation: fadeIn 0.5s ease forwards;
+}
+
+.nav-links a.active {
+    color: var(--primary);
+    position: relative;
+}
+
+.nav-links a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary);
+    border-radius: 2px;
+}
+
+/* Мобильное меню */
+@media (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: var(--glass);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        transform: translateY(-150%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 999;
+    }
+    
+    .nav-links.active {
+        transform: translateY(0);
+    }
+    
+    .nav-links a {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        margin: 0;
+    }
+    
+    .nav-links a i {
+        margin-right: 10px;
+    }
+    
+    .mobile-menu {
+        display: block;
+        background: none;
+        border: none;
+        color: var(--dark);
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+    /* Уменьшаем логотип */
+    .logo {
+        font-size: 1.2rem;
+    }
+    
+    .logo i {
+        font-size: 1.5rem;
+    }
+    
+    /* Скрываем текст в навигации при маленьких экранах */
+    @media (max-width: 480px) {
+        .nav-text {
+            display: none;
+        }
+        
+        .nav-links a i {
+            margin-right: 0;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+/* Анимация для иконки меню */
+.mobile-menu .fa-times {
+    display: none;
+}
+
+.mobile-menu.active .fa-bars {
+    display: none;
+}
+
+.mobile-menu.active .fa-times {
+    display: inline-block;
+}
+
+.nav-links {
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+.mobile-menu {
+    transition: transform 0.3s ease;
 }
