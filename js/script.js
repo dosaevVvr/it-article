@@ -5,7 +5,7 @@ const articles = [
         category: 'algorithms',
         title: 'Сортировка пузырьком: полное руководство',
         image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '10 Апреля 2024 • Автор: Алёна Смирнова',
+        meta: '10 Апреля 2024 • Автор: Досаев Раис',
         content: `
             <h2>Основы алгоритма</h2>
             <p>Сортировка пузырьком - это простой алгоритм, который многократно проходит через массив, сравнивая соседние элементы и меняя их местами, если они находятся в неправильном порядке. Этот процесс повторяется до тех пор, пока массив не будет полностью отсортирован.</p>
@@ -61,7 +61,7 @@ const articles = [
         category: 'algorithms',
         title: 'Быстрая сортировка: эффективный метод сортировки данных',
         image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '12 Апреля 2024 • Автор: Максим Иванов',
+        meta: '12 Апреля 2024 • Автор: Логенов Егор',
         content: `
             <h2>Принцип "разделяй и властвуй"</h2>
             <p>Быстрая сортировка использует стратегию разделения массива на подмассивы:</p>
@@ -101,7 +101,7 @@ const articles = [
         category: 'algorithms',
         title: 'Алгоритм Дейкстры: поиск кратчайшего пути',
         image: 'https://images.unsplash.com/photo-1600267165477-6d4cc741b379?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '15 Апреля 2024 • Автор: Сергей Петров',
+        meta: '15 Апреля 2024 • Автор: Логенов Егор',
         content: `
             <h2>Основные понятия</h2>
             <p>Алгоритм Дейкстры находит кратчайшие пути от начальной вершины до всех остальных в графе с неотрицательными весами ребер.</p>
@@ -131,7 +131,7 @@ const articles = [
         category: 'algorithms',
         title: 'Динамическое программирование: от теории к практике',
         image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '18 Апреля 2024 • Автор: Анна Кузнецова',
+        meta: '18 Апреля 2024 • Автор: Досаев Раис',
         content: `
             <h2>Основные принципы</h2>
             <p>Динамическое программирование (ДП) - это метод решения задач путем разбиения на перекрывающиеся подзадачи.</p>
@@ -176,7 +176,7 @@ const articles = [
         category: 'programming',
         title: 'Паттерны проектирования: Singleton и Factory',
         image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '20 Апреля 2024 • Автор: Дмитрий Соколов',
+        meta: '20 Апреля 2024 • Автор: Логенов Егор',
         content: `
             <h2>Паттерн Singleton (Одиночка)</h2>
             <p>Гарантирует, что у класса есть только один экземпляр, и предоставляет глобальную точку доступа к нему.</p>
@@ -230,7 +230,7 @@ class ButtonFactory {
         category: 'programming',
         title: 'Асинхронное программирование в JavaScript',
         image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '22 Апреля 2024 • Автор: Елена Васнецова',
+        meta: '22 Апреля 2024 • Автор: Досаев Раис',
         content: `
             <h2>Эволюция асинхронности в JS</h2>
             <div class="timeline">
@@ -302,7 +302,7 @@ class ButtonFactory {
         category: 'programming',
         title: 'Принципы SOLID в объектно-ориентированном программировании',
         image: 'https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '25 Апреля 2024 • Автор: Павел Иванов',
+        meta: '25 Апреля 2024 • Автор: Досаев Раис',
         content: `
             <h2>Пять принципов SOLID</h2>
             <div class="principles">
@@ -346,7 +346,7 @@ class Square implements Shape {}</code></pre>
         category: 'programming',
         title: 'Функциональное программирование: основы и преимущества',
         image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '28 Апреля 2024 • Автор: Ольга Семенова',
+        meta: '28 Апреля 2024 • Автор: Логенов Егор',
         content: `
             <h2>Ключевые концепции</h2>
             <div class="concepts">
@@ -399,7 +399,7 @@ const sum = numbers.reduce((acc, n) => acc + n, 0);</code></pre>
         category: 'databases',
         title: 'Нормализация баз данных: от 1NF до 5NF',
         image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '30 Апреля 2024 • Автор: Андрей Григорьев',
+        meta: '30 Апреля 2024 • Автор: Досаев Раис',
         content: `
             <h2>Нормальные формы</h2>
             <div class="normal-forms">
@@ -462,7 +462,7 @@ const sum = numbers.reduce((acc, n) => acc + n, 0);</code></pre>
         category: 'databases',
         title: 'Оптимизация SQL-запросов: лучшие практики',
         image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '2 Мая 2024 • Автор: Наталья Крылова',
+        meta: '2 Мая 2024 • Автор: Досаев Раис',
         content: `
             <h2>Использование индексов</h2>
             <p>Индексы ускоряют поиск, но замедляют вставку и обновление данных.</p>
@@ -502,7 +502,7 @@ JOIN large_table ON small_table.large_id = large_table.id;</code></pre>
         category: 'databases',
         title: 'Транзакции в SQL: ACID и уровни изоляции',
         image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '5 Мая 2024 • Автор: Ольга Семенова',
+        meta: '5 Мая 2024 • Автор: Логенов Егор',
         content: `
             <h2>Свойства ACID</h2>
             <div class="acid">
@@ -567,7 +567,7 @@ JOIN large_table ON small_table.large_id = large_table.id;</code></pre>
         category: 'databases',
         title: 'NoSQL vs SQL: сравнительный анализ',
         image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '8 Мая 2024 • Автор: Дмитрий Козлов',
+        meta: '8 Мая 2024 • Автор: Логенов Егор',
         content: `
             <h2>Сравнение технологий</h2>
             <div class="comparison">
@@ -633,7 +633,7 @@ JOIN large_table ON small_table.large_id = large_table.id;</code></pre>
         category: 'ai',
         title: 'Нейронные сети: архитектура и обучение',
         image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '10 Мая 2024 • Автор: Артем Волков',
+        meta: '10 Мая 2024 • Автор: Досаев Раис',
         content: `
             <h2>Основные компоненты</h2>
             <div class="nn-components">
@@ -683,7 +683,7 @@ model.fit(x_train, y_train, epochs=5, batch_size=32)</code></pre>
         category: 'ai',
         title: 'Обработка естественного языка (NLP) с BERT',
         image: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-        meta: '12 Мая 2024 • Автор: Виктория Павлова',
+        meta: '12 Мая 2024 • Автор: Досаев Раис',
         content: `
             <h2>Что такое BERT?</h2>
             <p>BERT (Bidirectional Encoder Representations from Transformers) - это модель для обработки естественного языка, разработанная Google в 2018 году.</p>
@@ -729,7 +729,6 @@ outputs = model(**inputs)</code></pre>
 document.addEventListener('DOMContentLoaded', () => {
     renderArticles();
     setupEventListeners();
-    setupMobileMenu();
 });
 
 // Рендер статей
@@ -808,10 +807,6 @@ function setupEventListeners() {
     });
 }
 
-// Для мобильного меню
-document.querySelector('.mobile-menu').addEventListener('click', () => {
-    document.querySelector('.nav-links').classList.toggle('show');
-});
 
 // Функция фильтрации статей
 function filterArticles(category) {
@@ -882,77 +877,58 @@ function getCategoryName(category) {
     return names[category] || category;
 }
 
-// Мобильное меню
-function setupMobileMenu() {
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const navLinks = document.getElementById('navLinks');
-    
-    mobileMenuBtn.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-        this.classList.toggle('active');
-        
-        // Блокировка прокрутки при открытом меню
-        if (navLinks.classList.contains('active')) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = '';
-        }
-    });
-    
-    // Закрытие меню при клике на ссылку
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-            mobileMenuBtn.classList.remove('active');
-            document.body.style.overflow = '';
-        });
-    });
-    
-    // Закрытие меню при изменении размера окна
-    window.addEventListener('resize', function() {
-        if (window.innerWidth > 768) {
-            navLinks.classList.remove('active');
-            mobileMenuBtn.classList.remove('active');
-            document.body.style.overflow = '';
-        }
-    });
+const profileButton = document.getElementById('profileButton');
+const profileModal = document.getElementById('profileModal');
+const closeModal = document.querySelector('.close-modal');
+const darkThemeToggle = document.getElementById('darkThemeToggle');
+
+// Данные пользователя
+let userProfile = {
+    name: "Гость",
+    savedArticles: [1], // ID сохраненных статей
+    darkMode: false
+};
+
+// Открытие/закрытие модалки
+function toggleProfileModal() {
+    profileModal.style.display = 
+        profileModal.style.display === 'block' ? 'none' : 'block';
+    loadSavedArticles();
+    darkThemeToggle.checked = userProfile.darkMode;
 }
 
-function setupMobileMenu() {
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const navLinks = document.getElementById('navLinks');
-    
-    mobileMenuBtn.addEventListener('click', function(e) {
-        e.stopPropagation(); // Блокируем всплытие события
-        navLinks.classList.toggle('active');
-        this.classList.toggle('active');
-        document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
-    });
-
-    // Закрытие меню при клике в любом месте экрана
-    document.addEventListener('click', function(e) {
-        if (!navLinks.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
-            navLinks.classList.remove('active');
-            mobileMenuBtn.classList.remove('active');
-            document.body.style.overflow = '';
-        }
-    });
-
-    // Закрытие меню при клике на ссылки
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-            mobileMenuBtn.classList.remove('active');
-            document.body.style.overflow = '';
-        });
-    });
-
-    // Закрытие при изменении размера окна
-    window.addEventListener('resize', function() {
-        if (window.innerWidth > 768) {
-            navLinks.classList.remove('active');
-            mobileMenuBtn.classList.remove('active');
-            document.body.style.overflow = '';
-        }
-    });
+// Загрузка сохраненных статей
+function loadSavedArticles() {
+    const savedContainer = document.getElementById('savedArticles');
+    savedContainer.innerHTML = userProfile.savedArticles
+        .map(id => {
+            const article = articles.find(a => a.id === id);
+            return article ? `<div class="saved-article">${article.title}</div>` : '';
+        })
+        .join('');
 }
+
+// Переключение темы
+function toggleDarkTheme() {
+    userProfile.darkMode = !userProfile.darkMode;
+    document.body.classList.toggle('dark-theme', userProfile.darkMode);
+    localStorage.setItem('userProfile', JSON.stringify(userProfile));
+}
+
+// Инициализация
+document.addEventListener('DOMContentLoaded', () => {
+    // Загрузка из LocalStorage
+    const savedProfile = localStorage.getItem('userProfile');
+    if(savedProfile) userProfile = JSON.parse(savedProfile);
+    
+    // Применение темы
+    document.body.classList.toggle('dark-theme', userProfile.darkMode);
+});
+
+// Обработчики событий
+profileButton.addEventListener('click', toggleProfileModal);
+closeModal.addEventListener('click', toggleProfileModal);
+window.addEventListener('click', (e) => {
+    if(e.target === profileModal) toggleProfileModal();
+});
+darkThemeToggle.addEventListener('change', toggleDarkTheme);
